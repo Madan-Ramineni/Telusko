@@ -1,0 +1,14 @@
+I have done this project using Spring and Hibernate using oracle database. i did not much focused on view pages and i only focused in backend part.i did not performed all the validations, i did not get much time for testing, so might be you can find some validation issue it might turn up null pointer exception . i assmued to get top students from form data submiting the age group and city values. 
+
+Query for table creation:
+
+CREATE TABLE Students  
+(   
+id varchar2(10),
+  Name varchar2(50) ,  
+  Marks number(7) ,  
+  Age number(4) ,
+  City varchar2(50) 
+  
+);  
+
